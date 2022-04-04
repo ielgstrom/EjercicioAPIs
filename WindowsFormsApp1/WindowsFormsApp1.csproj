@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\API.cs" />
+    <Compile Include="Classes\Categorie.cs" />
     <Compile Include="Classes\Joke.cs" />
     <Compile Include="Classes\Result.cs" />
     <Compile Include="Classes\WebHelper.cs" />
