@@ -13,7 +13,12 @@ namespace ChuckNorris
         public string Type { get; set; }
 
         [DataMember(Name = "value")]
-        public Joke Value { get; set; }
+        public Categorie Value { get; set; }
+
+        [DataMember(Name = "categorie")]
+        public Categorie Categorie { get; set; }
+
+        //public Categorie Value { get; set; }
     }
 
 }

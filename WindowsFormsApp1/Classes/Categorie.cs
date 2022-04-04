@@ -1,11 +1,10 @@
 ﻿using System.Runtime.Serialization;
 
 namespace ChuckNorris
-
 {
     [DataContract]
-    class Categorie
+    public class Categorie
     {
-
+        //public string Categ { get; set; }
     }
 }
